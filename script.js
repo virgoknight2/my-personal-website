@@ -4,11 +4,11 @@ document.querySelector("body").appendChild(h2);
 
 const input = document.getElementById('body');
 
-function setHideImages( visible) {
+function setHideImages(visible) {
   var img= document.getElementsById('mama');
   var bunt= document.getElementById('selfie');
   img.style.display = (visible ? 'visible' : 'hidden');
   bunt.style.display = (visible ? 'visible' : 'hidden');
 }
 
-input.addEventListener('click', setHideImages(true));
+input.addEventListener('click', setHideImages(false));
