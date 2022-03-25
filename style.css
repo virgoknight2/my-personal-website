@@ -1,3 +1,6 @@
-body { background:rgb(197, 72, 255);
+body { background:rgb(105, 36, 138);
     text-align: center;
 }
+p { text-align:center;
+color: beige;
+width: 90%;}
