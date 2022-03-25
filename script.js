@@ -6,9 +6,9 @@ const input = document.getElementById('body');
 
 function setHideImages( visible) {
   var img= document.getElementsById('mama');
-  var img1= document.getElementById('selfie');
-  img.style.visibility = (visible ? 'visible' : 'hidden');
-  img1.style.visibility = (visible ? 'visible' : 'hidden');
+  var bunt= document.getElementById('selfie');
+  img.style.display = (visible ? 'visible' : 'hidden');
+  bunt.style.display = (visible ? 'visible' : 'hidden');
 }
 
-input.addEventListener('click', setHideImages(false));
+input.addEventListener('click', setHideImages(true));
