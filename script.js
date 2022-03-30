@@ -5,6 +5,5 @@ document.querySelector("body").appendChild(h2);
 const btn = document.getElementById('btn');
 
 btn.addEventListener('click', function onClick(event) {
-  // 👇️ Change text color globally
   document.body.style.color = 'white';
 });
